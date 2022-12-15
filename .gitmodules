@@ -1,3 +1,6 @@
 [submodule "Sources/wasmer"]
 	path = Sources/wasmer
 	url = https://github.com/wasmerio/wasmer.git
+[submodule "wasmer"]
+	path = wasmer
+	url = git@github.com:wasmerio/wasmer.git
