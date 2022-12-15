@@ -10,3 +10,7 @@ DerivedData/
 
 # Workspace
 artifacts/
+.wasmer_prebuild/
+Sources/CWasmer/bin/
+Sources/CWasmer/lib/
+Sources/CWasmer/include/

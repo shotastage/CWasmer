@@ -1,0 +1,5 @@
+module CWasmer {
+    header "include/wasmer.h"
+    link   "libwasmer.a"
+    export *
+}
