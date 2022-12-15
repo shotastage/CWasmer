@@ -37,11 +37,5 @@ curl -sLJO https://github.com/wasmerio/wasmer/releases/download/v3.1.0/wasmer-da
 tar -zxvf wasmer-darwin-amd64.tar.gz
 
 place
-build_framework "generic/platform=iOS" ".archives/CWasmer-iOS"
-build_framework "generic/platform=iOS Simulator" ".archives/CWasmer-iOS-Simulator"
-build_framework "generic/platform=macOS,variant=Mac Catalyst" ".archives/CWasmer-macOS-Catalyst"
-build_framework "generic/platform=macOS" ".archives/CWasmer-macOS"
+mint run swift-create-xcframework --clean CWasmer --output artifacts --platform ios --platform macos --platform tvos --platform watchos
 clean
-
-
-# xcodebuild -create-xcframework -library Sources/CWasmer -output CW.xcframework
