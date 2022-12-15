@@ -1,0 +1,3 @@
+[submodule "Sources/wasmer"]
+	path = Sources/wasmer
+	url = https://github.com/wasmerio/wasmer.git

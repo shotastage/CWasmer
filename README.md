@@ -1,3 +1,3 @@
 # CWasmer
 
-A description of this package.
+Wasmer framework builder for iOS
