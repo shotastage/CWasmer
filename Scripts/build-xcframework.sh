@@ -42,3 +42,6 @@ build_framework "generic/platform=iOS Simulator" ".archives/CWasmer-iOS-Simulato
 build_framework "generic/platform=macOS,variant=Mac Catalyst" ".archives/CWasmer-macOS-Catalyst"
 build_framework "generic/platform=macOS" ".archives/CWasmer-macOS"
 clean
+
+
+# xcodebuild -create-xcframework -library Sources/CWasmer -output CW.xcframework
