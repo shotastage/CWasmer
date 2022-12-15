@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_14";
+         projectDirPath = ".";
+         targets = (
+            "cwasmer::CWasmer",
+            "cwasmer::SwiftPMPackageDescription",
+            "cwasmer::CWasmerPackageTests::ProductTarget",
+            "cwasmer::CWasmerTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "CWasmer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_12"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_12" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13"
+         );
+         name = "CWasmerTests";
+         path = "Tests/CWasmerTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "CWasmerTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXGroup";
+         children = (
+            "cwasmer::CWasmer::Product",
+            "cwasmer::CWasmerTests::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "wasmer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "Scripts";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "Makefile";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_22" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_23",
+            "OBJ_24"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_23" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CURRENT_PROJECT_VERSION = "1";
+            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmer_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.13";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CWasmer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "CWasmer";
+            TVOS_DEPLOYMENT_TARGET = "11.0";
+            WATCHOS_DEPLOYMENT_TARGET = "4.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_24" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CURRENT_PROJECT_VERSION = "1";
+            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmer_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.13";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CWasmer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "CWasmer";
+            TVOS_DEPLOYMENT_TARGET = "11.0";
+            WATCHOS_DEPLOYMENT_TARGET = "4.0";
+         };
+         name = "Release";
+      };
+      "OBJ_25" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_26"
+         );
+      };
+      "OBJ_26" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_27" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_29" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_30",
+            "OBJ_31"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "$(AVAILABLE_PLATFORMS)"
+            );
+            SUPPORTS_MACCATALYST = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+               "-package-description-version",
+               "5.7.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_31" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
+               "-package-description-version",
+               "5.7.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_32" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_33"
+         );
+      };
+      "OBJ_33" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_35" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_36",
+            "OBJ_37"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_36" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_37" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_38" = {
+         isa = "PBXTargetDependency";
+         target = "cwasmer::CWasmerTests";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "$(AVAILABLE_PLATFORMS)"
+            );
+            SUPPORTS_MACCATALYST = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_41",
+            "OBJ_42"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_41" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            CURRENT_PROJECT_VERSION = "1";
+            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmerTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "11.0";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "CWasmerTests";
+            TVOS_DEPLOYMENT_TARGET = "14.0";
+            WATCHOS_DEPLOYMENT_TARGET = "7.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_42" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            CURRENT_PROJECT_VERSION = "1";
+            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmerTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "11.0";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "CWasmerTests";
+            TVOS_DEPLOYMENT_TARGET = "14.0";
+            WATCHOS_DEPLOYMENT_TARGET = "7.0";
+         };
+         name = "Release";
+      };
+      "OBJ_43" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_44"
+         );
+      };
+      "OBJ_44" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_45" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_46"
+         );
+      };
+      "OBJ_46" = {
+         isa = "PBXBuildFile";
+         fileRef = "cwasmer::CWasmer::Product";
+      };
+      "OBJ_47" = {
+         isa = "PBXTargetDependency";
+         target = "cwasmer::CWasmer";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_11",
+            "OBJ_14",
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9",
+            "OBJ_10"
+         );
+         name = "CWasmer";
+         path = "Sources/CWasmer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "module.modulemap";
+         sourceTree = "<group>";
+      };
+      "cwasmer::CWasmer" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_22";
+         buildPhases = (
+            "OBJ_25",
+            "OBJ_27"
+         );
+         dependencies = (
+         );
+         name = "CWasmer";
+         productName = "CWasmer";
+         productReference = "cwasmer::CWasmer::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "cwasmer::CWasmer::Product" = {
+         isa = "PBXFileReference";
+         path = "CWasmer.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "cwasmer::CWasmerPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_35";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_38"
+         );
+         name = "CWasmerPackageTests";
+         productName = "CWasmerPackageTests";
+      };
+      "cwasmer::CWasmerTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_40";
+         buildPhases = (
+            "OBJ_43",
+            "OBJ_45"
+         );
+         dependencies = (
+            "OBJ_47"
+         );
+         name = "CWasmerTests";
+         productName = "CWasmerTests";
+         productReference = "cwasmer::CWasmerTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "cwasmer::CWasmerTests::Product" = {
+         isa = "PBXFileReference";
+         path = "CWasmerTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "cwasmer::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_29";
+         buildPhases = (
+            "OBJ_32"
+         );
+         dependencies = (
+         );
+         name = "CWasmerPackageDescription";
+         productName = "CWasmerPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
+}
