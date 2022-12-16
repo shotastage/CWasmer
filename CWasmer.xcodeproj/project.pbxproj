@@ -1,580 +1,550 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_14";
-         projectDirPath = ".";
-         targets = (
-            "cwasmer::CWasmer",
-            "cwasmer::SwiftPMPackageDescription",
-            "cwasmer::CWasmerPackageTests::ProductTarget",
-            "cwasmer::CWasmerTests"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "CWasmer.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_12"
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_12" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_13"
-         );
-         name = "CWasmerTests";
-         path = "Tests/CWasmerTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "CWasmerTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXGroup";
-         children = (
-            "cwasmer::CWasmer::Product",
-            "cwasmer::CWasmerTests::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "wasmer";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_18" = {
-         isa = "PBXFileReference";
-         path = "Scripts";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "Makefile";
-         sourceTree = "<group>";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_22" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_23",
-            "OBJ_24"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_23" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmer_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CWasmer";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CWasmer";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_24" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmer_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CWasmer";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CWasmer";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_25" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_26"
-         );
-      };
-      "OBJ_26" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_27" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_29" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_30",
-            "OBJ_31"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "5.7.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_31" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "5.7.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_32" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_33"
-         );
-      };
-      "OBJ_33" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_35" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_36",
-            "OBJ_37"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_36" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_37" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_38" = {
-         isa = "PBXTargetDependency";
-         target = "cwasmer::CWasmerTests";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_41",
-            "OBJ_42"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_41" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CWasmerTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_42" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "CWasmer.xcodeproj/CWasmerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CWasmerTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Release";
-      };
-      "OBJ_43" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_44"
-         );
-      };
-      "OBJ_44" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_45" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_46"
-         );
-      };
-      "OBJ_46" = {
-         isa = "PBXBuildFile";
-         fileRef = "cwasmer::CWasmer::Product";
-      };
-      "OBJ_47" = {
-         isa = "PBXTargetDependency";
-         target = "cwasmer::CWasmer";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_11",
-            "OBJ_14",
-            "OBJ_17",
-            "OBJ_18",
-            "OBJ_19",
-            "OBJ_20"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8"
-         );
-         name = "Sources";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9",
-            "OBJ_10"
-         );
-         name = "CWasmer";
-         path = "Sources/CWasmer";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "module.modulemap";
-         sourceTree = "<group>";
-      };
-      "cwasmer::CWasmer" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_22";
-         buildPhases = (
-            "OBJ_25",
-            "OBJ_27"
-         );
-         dependencies = (
-         );
-         name = "CWasmer";
-         productName = "CWasmer";
-         productReference = "cwasmer::CWasmer::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "cwasmer::CWasmer::Product" = {
-         isa = "PBXFileReference";
-         path = "CWasmer.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "cwasmer::CWasmerPackageTests::ProductTarget" = {
-         isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_35";
-         buildPhases = (
-         );
-         dependencies = (
-            "OBJ_38"
-         );
-         name = "CWasmerPackageTests";
-         productName = "CWasmerPackageTests";
-      };
-      "cwasmer::CWasmerTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_40";
-         buildPhases = (
-            "OBJ_43",
-            "OBJ_45"
-         );
-         dependencies = (
-            "OBJ_47"
-         );
-         name = "CWasmerTests";
-         productName = "CWasmerTests";
-         productReference = "cwasmer::CWasmerTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "cwasmer::CWasmerTests::Product" = {
-         isa = "PBXFileReference";
-         path = "CWasmerTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "cwasmer::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_29";
-         buildPhases = (
-            "OBJ_32"
-         );
-         dependencies = (
-         );
-         name = "CWasmerPackageDescription";
-         productName = "CWasmerPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"cwasmer::CWasmerPackageTests::ProductTarget" /* CWasmerPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_43 /* Build configuration list for PBXAggregateTarget "CWasmerPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_46 /* PBXTargetDependency */,
+			);
+			name = CWasmerPackageTests;
+			productName = CWasmerPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_34 /* WasmerProgramLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* WasmerProgramLoader.m */; };
+		OBJ_41 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_52 /* CWasmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CWasmerTests.swift */; };
+		OBJ_54 /* CWasmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "cwasmer::CWasmer::Product" /* CWasmer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435FBB9D294C5E230064373B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "cwasmer::CWasmer";
+			remoteInfo = CWasmer;
+		};
+		435FBB9E294C5E240064373B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "cwasmer::CWasmerTests";
+			remoteInfo = CWasmerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* WasmerProgramLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WasmerProgramLoader.h; sourceTree = "<group>"; };
+		OBJ_11 /* WasmerProgramLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasmerProgramLoader.m; sourceTree = "<group>"; };
+		OBJ_13 /* wasm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wasm.h; sourceTree = "<group>"; };
+		OBJ_14 /* wasmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wasmer.h; sourceTree = "<group>"; };
+		OBJ_15 /* wasmer_wasm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wasmer_wasm.h; sourceTree = "<group>"; };
+		OBJ_16 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/shota/Developer/CWasmer/CWasmer.xcodeproj/GeneratedModuleMap/CWasmer/module.modulemap; sourceTree = "<group>"; };
+		OBJ_19 /* CWasmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWasmerTests.swift; sourceTree = "<group>"; };
+		OBJ_23 /* artifacts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = artifacts; sourceTree = SOURCE_ROOT; };
+		OBJ_24 /* wasmer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wasmer; sourceTree = SOURCE_ROOT; };
+		OBJ_25 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = SOURCE_ROOT; };
+		OBJ_26 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		OBJ_27 /* CWasmer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CWasmer.xcconfig; sourceTree = "<group>"; };
+		OBJ_28 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		"cwasmer::CWasmer::Product" /* CWasmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CWasmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"cwasmer::CWasmerTests::Product" /* CWasmerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CWasmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_54 /* CWasmer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_12 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* wasm.h */,
+				OBJ_14 /* wasmer.h */,
+				OBJ_15 /* wasmer_wasm.h */,
+				OBJ_16 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* CWasmerTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* CWasmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* CWasmerTests.swift */,
+			);
+			name = CWasmerTests;
+			path = Tests/CWasmerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"cwasmer::CWasmer::Product" /* CWasmer.framework */,
+				"cwasmer::CWasmerTests::Product" /* CWasmerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_17 /* Tests */,
+				OBJ_20 /* Products */,
+				OBJ_23 /* artifacts */,
+				OBJ_24 /* wasmer */,
+				OBJ_25 /* Scripts */,
+				OBJ_26 /* Makefile */,
+				OBJ_27 /* CWasmer.xcconfig */,
+				OBJ_28 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CWasmer */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CWasmer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* module.modulemap */,
+				OBJ_10 /* WasmerProgramLoader.h */,
+				OBJ_11 /* WasmerProgramLoader.m */,
+				OBJ_12 /* include */,
+			);
+			name = CWasmer;
+			path = Sources/CWasmer;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"cwasmer::CWasmer" /* CWasmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_30 /* Build configuration list for PBXNativeTarget "CWasmer" */;
+			buildPhases = (
+				OBJ_33 /* Sources */,
+				OBJ_35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWasmer;
+			productName = CWasmer;
+			productReference = "cwasmer::CWasmer::Product" /* CWasmer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"cwasmer::CWasmerTests" /* CWasmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_48 /* Build configuration list for PBXNativeTarget "CWasmerTests" */;
+			buildPhases = (
+				OBJ_51 /* Sources */,
+				OBJ_53 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_55 /* PBXTargetDependency */,
+			);
+			name = CWasmerTests;
+			productName = CWasmerTests;
+			productReference = "cwasmer::CWasmerTests::Product" /* CWasmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"cwasmer::SwiftPMPackageDescription" /* CWasmerPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "CWasmerPackageDescription" */;
+			buildPhases = (
+				OBJ_40 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWasmerPackageDescription;
+			productName = CWasmerPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CWasmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"cwasmer::CWasmer" /* CWasmer */,
+				"cwasmer::SwiftPMPackageDescription" /* CWasmerPackageDescription */,
+				"cwasmer::CWasmerPackageTests::ProductTarget" /* CWasmerPackageTests */,
+				"cwasmer::CWasmerTests" /* CWasmerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_34 /* WasmerProgramLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_52 /* CWasmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "cwasmer::CWasmerTests" /* CWasmerTests */;
+			targetProxy = 435FBB9E294C5E240064373B /* PBXContainerItemProxy */;
+		};
+		OBJ_55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "cwasmer::CWasmer" /* CWasmer */;
+			targetProxy = 435FBB9D294C5E230064373B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CWasmer/include",
+					.,
+					include,
+				);
+				INFOPLIST_FILE = CWasmer.xcodeproj/CWasmer_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CWasmer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = CWasmer;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CWasmer/include",
+					.,
+					include,
+				);
+				INFOPLIST_FILE = CWasmer.xcodeproj/CWasmer_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CWasmer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = CWasmer;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 5.7.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 5.7.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CWasmer/include",
+					"$(SRCROOT)/CWasmer.xcodeproj/GeneratedModuleMap/CWasmer",
+				);
+				INFOPLIST_FILE = CWasmer.xcodeproj/CWasmerTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/CWasmer.xcodeproj/GeneratedModuleMap/CWasmer/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CWasmerTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/CWasmer/include",
+					"$(SRCROOT)/CWasmer.xcodeproj/GeneratedModuleMap/CWasmer",
+				);
+				INFOPLIST_FILE = CWasmer.xcodeproj/CWasmerTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/CWasmer.xcodeproj/GeneratedModuleMap/CWasmer/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CWasmerTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "CWasmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_30 /* Build configuration list for PBXNativeTarget "CWasmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_31 /* Debug */,
+				OBJ_32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "CWasmerPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_43 /* Build configuration list for PBXAggregateTarget "CWasmerPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_44 /* Debug */,
+				OBJ_45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_48 /* Build configuration list for PBXNativeTarget "CWasmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_49 /* Debug */,
+				OBJ_50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }

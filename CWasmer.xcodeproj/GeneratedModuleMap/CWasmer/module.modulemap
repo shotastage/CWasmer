@@ -1,0 +1,4 @@
+module CWasmer {
+    umbrella "/Users/shota/Developer/CWasmer/Sources/CWasmer/include"
+    export *
+}

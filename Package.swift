@@ -3,6 +3,11 @@
 
 import PackageDescription
 
+let cxxSettings: [CXXSetting] = [
+    .headerSearchPath("."),
+    .headerSearchPath("include"),
+]
+
 let package = Package(
     name: "CWasmer",
     products: [
@@ -20,9 +25,12 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "CWasmer",
-            dependencies: []),
+            dependencies: [],
+            cxxSettings: cxxSettings
+        ),
         .testTarget(
             name: "CWasmerTests",
             dependencies: ["CWasmer"]),
-    ]
+    ],
+    cxxLanguageStandard: .cxx20
 )

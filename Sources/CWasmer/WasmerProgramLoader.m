@@ -6,24 +6,16 @@
 //
 
 #include "WasmerProgramLoader.h"
-#include "ProgramLoader.hpp"
 
-@implementation ProgramLoaderWrapper {
-    WasmerProgramLoader *wasmLoader;
+@implementation WasmerProgramLoader {
 }
 
 -(id)init {
     self = [super init];
-    wasmLoader = new WasmerProgramLoader();
     return self;
 }
 
--(void)dealloc {
-    delete wasmLoader;
-    //[super dealloc];
-}
-
 -(void)execute {
-    wasmLoader->execute();
+    
 }
 @end
