@@ -9,8 +9,7 @@
 #define WasmerProgramLoader_h
 
 #import <Foundation/Foundation.h>
-#import "include/wasmer.h"
-
+#import <wasmer.h>
 @interface WasmerProgramLoader : NSObject
 - (void) execute;
 @end
